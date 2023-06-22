@@ -1,0 +1,7 @@
+#myimage {
+    width: 300px; /* Adjust the width as per your requirements */
+    height: auto; /* Adjust the height as per your requirements */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
