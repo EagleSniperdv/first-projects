@@ -1,0 +1,64 @@
+#myimage {
+    width: 600px; /* Adjust the width as per your requirements */
+    height: auto; /* Adjust the height as per your requirements */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#content{
+    margin: 100px auto 20px auto;
+    border: 20px solid #eb0707;
+    width: 400px;
+    height: 266px;
+    position: relative;
+}
+
+#contentmyimage{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+p {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #eb0707;
+}
+
+#previous {
+    margin-right: 10px;
+}
+
+#next {
+    margin-left: 10px;
+}
+
+.fadeinmyimage {
+    animation: fadein 2s;
+
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
